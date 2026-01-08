@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-Powered Resume Job Matcher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <header class="header-content">
+        <a href="#logo" class="logo">
+          <img src="/Images/logo.png" alt="AI-Powered logo" class="logo-icon" />
+          <span class="logo-text">AI-Powered Resume Job Matcher</span>
+        </a>
+        <nav class="nav-bar">
+          <a href="index.html" class="nav-links">Home</a>
+          <a href="/NavBarInformation/about.html" class="nav-links">About Us</a>
+          <a href="/NavBarInformation/ai-resume.html" class="nav-links"
+            >AI Resume</a
+          >
+        </nav>
+        <div class="nav-button">
+          <a href="/signin/login.html" class="signin-button">SIGN IN</a>
+          <a href="/signin/joinnow.html" class="joinnow-button">JOIN NOW</a>
+        </div>
+
+        <button type="button" class="menu-button">
+          <img src="/Images/hamburger.png" alt="MenuButton" class="menu-icon" />
+        </button>
+      </header>
+    </div>
+    <div class="content">
+      <section class="main-section">
+        <div class="left-box">
+          <div class="text">
+            <h1 class="section-title">AI-POWERED RESUME JOB MATCHER</h1>
+            <p class="tag-line">Find the Job You Deserve—Powered <br />by AI</p>
+            <p class="section-lable">Match. Analyze. Apply Smarter!</p>
+          </div>
+          <section id="resume-section">
+            <a href="#resume-section" class="job-matcher-button">
+              Start Matching for JOB
+            </a>
+          </section>
+        </div>
+        <div class="right-box">
+          <div class="paypal-card">
+            <div class="logo-job">
+              <img
+                src="/Images/paypal-icon.webp"
+                alt="Paypal"
+                class="paypal-icon"
+              />
+              <h3 class="job-role">B2B Marketing Manager</h3>
+              <p class="company-name">Paypal</p>
+            </div>
+            <div class="address">
+              <div class="location">
+                <img
+                  src="/Images/location-icon.png"
+                  alt="LocationIcon"
+                  class="location-icon"
+                />
+              </div>
+              <div class="country">
+                <p class="country-name">Los Angeles, CA</p>
+              </div>
+            </div>
+          </div>
+          <div class="runway-card">
+            <div class="logo-job">
+              <img
+                src="/Images/runway-icon.png"
+                alt="RunwayIcon"
+                class="runway-icon"
+              />
+              <h3 class="job-role">Senior Product Designer</h3>
+              <p class="company-name">Runway</p>
+            </div>
+            <div class="address">
+              <div class="location">
+                <img
+                  src="/Images/location-icon.png"
+                  alt="LocationIcon"
+                  class="location-icon"
+                />
+              </div>
+              <div class="country">
+                <p class="country-name">Los Angeles, CA</p>
+              </div>
+            </div>
+          </div>
+          <div class="google-card">
+            <div class="logo-job">
+              <img
+                src="/Images/google-icon.png"
+                alt="GoogleIcon"
+                class="google-icon"
+              />
+              <h3 class="job-role">Software Engineer 1</h3>
+              <p class="company-name">Google</p>
+            </div>
+            <div class="address">
+              <div class="location">
+                <img
+                  src="/Images/location-icon.png"
+                  alt="LocationIcon"
+                  class="location-icon"
+                />
+              </div>
+              <div class="country">
+                <p class="country-name">Los Angeles, CA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="second-section">
+        <div class="left-container">
+          <div class="resume-section">
+            <div class="title-of-resume">
+              <h3>Drop your resume</h3>
+              <p>Acceptable file types: PDF, DOC, DOCX, TXT, JPEG</p>
+            </div>
+            <div class="resume-upload-box">
+              <label for="resumeInput" class="upload-area">
+                <img
+                  src="/Images/upload-icon.png"
+                  class="upload-icon"
+                  alt="Upload Icon"
+                />
+                <span>Click to upload your own resume</span>
+              </label>
+              <input type="file" id="resumeInput" class="hidden-file" />
+              <div class="file-info" id="fileInfo">
+                <span id="fileName"></span>
+                <button id="removeFile" class="remove-btn">✖</button>
+              </div>
+            </div>
+          </div>
+          <div class="select-button">
+            <div class="experience">
+              <label>Total years of experience</label>
+              <select class="select-box1">
+                <option>Select</option>
+                <option>0-1</option>
+                <option>1-2</option>
+                <option>2-3</option>
+                <option>3-4</option>
+                <option>4-5</option>
+                <option>5-6</option>
+                <option>6-7</option>
+                <option>7-8</option>
+                <option>8-9</option>
+                <option>9-10</option>
+                <option>Above 10</option>
+              </select>
+            </div>
+            <label class="salary">Annual CTC</label>
+            <div class="ctc">
+              <select class="select-box2">
+                <option>Lakhs</option>
+                <option>3</option>
+                <option>3-4</option>
+                <option>4-5</option>
+                <option>5-6</option>
+                <option>6-7</option>
+                <option>7-8</option>
+                <option>8-9</option>
+                <option>9-10</option>
+                <option>10-11</option>
+                <option>11-12</option>
+                <option>Above 12</option>
+              </select>
+              <select class="select-box2">
+                <option>Thousand</option>
+                <option>10-20</option>
+                <option>20-30</option>
+                <option>30-40</option>
+                <option>40-50</option>
+                <option>50-60</option>
+                <option>60-70</option>
+                <option>70-80</option>
+                <option>80-90</option>
+                <option>90-99</option>
+              </select>
+            </div>
+            <label style="font-weight: 600">Enter Your Skills</label>
+            <textarea
+              id="skillsInput"
+              rows="4"
+              placeholder="Example: HTML, CSS, JavaScript, React"
+              style="width: 100%; margin-top: 8px; padding: 10px"
+            ></textarea>
+
+            <button class="submit-button">SUBMIT</button>
+          </div>
+        </div>
+        <div class="right-description">
+          <p>
+            Finding the right job can be confusing, especially for freshers.
+            This AI Resume Job Matcher makes it easy—just upload your resume and
+            get instant suggestions on job roles that match your skills.
+            <br />The tool also tells you what skills you need to learn, how to
+            improve your resume, and which jobs fit your current profile.
+          </p>
+        </div>
+      </section>
+      <section class="third-section">
+        <h3 class="job-matched">Your AI-Powered Job Matches</h3>
+        <div class="job-box">
+          <div class="job-card">
+            <span class="job-title">Software Engineer 1</span>
+            <span class="cmp-name">Google</span>
+            <div class="job-location">
+              <img
+                src="/Images/location-icon.png"
+                alt="location-icon"
+                class="job-location-icon"
+              />
+              <span class="actual-location">Los Angeles, CA</span>
+              <div class="apply-button">Apply</div>
+            </div>
+          </div>
+          <div class="job-card">
+            <span class="job-title">Frontend Developer</span>
+            <span class="cmp-name">TCS</span>
+            <div class="job-location">
+              <img
+                src="/Images/location-icon.png"
+                alt="location-icon"
+                class="job-location-icon"
+              />
+              <span class="actual-location">Bangalore, India</span>
+              <div class="apply-button">Apply</div>
+            </div>
+          </div>
+          <div class="job-card">
+            <span class="job-title">Full Stack Developer</span>
+            <span class="cmp-name">Infosys</span>
+            <div class="job-location">
+              <img
+                src="/Images/location-icon.png"
+                alt="location-icon"
+                class="job-location-icon"
+              />
+              <span class="actual-location">Gurgaon, India</span>
+              <div class="apply-button">Apply</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fourth-section">
+        <div class="foot-one">
+          <h3 class="foot-heading">
+            Boost Your Career With AI-Powered <br />Resume Matching
+          </h3>
+          <p class="foot-description">
+            Join thousands of job seekers using AI to find the right job
+            faster.<br />
+            Upload your resume and discover roles that truly match your
+            <br />skills.
+          </p>
+          <section id="resume-section">
+            <a
+              href="#resume-section"
+              class="job-matcher-button"
+              style="
+                font-size: 1.5rem;
+                font-weight: 700;
+                border-radius: 1rem;
+                padding: 1.5rem 2.5rem;
+              "
+              >Start Matching for Job</a
+            >
+          </section>
+        </div>
+      </section>
+      <div class="footer">
+        <footer class="footer-content">
+          <div class="footer-left-box">
+            <div class="footer-logo-icon">
+              <img src="/Images/logo.png" alt="logo" class="footer-logos" />
+            </div>
+            <div class="footer-description">
+              <h3 class="footer-title">AI-POWERED RESUME JOB MATCHER</h3>
+              <p class="description">
+                AI-Powered Resume Job Matcher helps job seekers analyze their
+                resumes and find the best job roles using AI. Upload your résumé
+                and get instant career recommendations.
+              </p>
+            </div>
+          </div>
+          <div class="footer-right-box">
+            <div id="footer-all-links">
+              <a class="footer-links" href="index.html">Home</a>
+              <a class="footer-links" href="/NavBarInformation/about.html"
+                >About Us</a
+              >
+              <a class="footer-links" href="/NavBarInformation/ai-resume.html"
+                >AI Resume</a
+              >
+              <a class="footer-links" href="/signin/joinnow.html">Join Now</a>
+            </div>
+            <span class="follow-text">Follow On</span>
+            <div class="footer-social-media-icon">
+              <a href="#instagram">
+                <img
+                  src="/Images/instagram-icon.png"
+                  alt="instagram-icon"
+                  class="instagram"
+                />
+              </a>
+              <a href="#facebook">
+                <img
+                  src="/Images/facebook-icon.png"
+                  alt="facebook"
+                  class="facebook"
+                />
+              </a>
+              <a href="#linkedin">
+                <img
+                  src="/Images/linkedIn-icon.webp"
+                  alt="linkedin-icon"
+                  class="linkedin"
+                />
+              </a>
+              <a href="#youtube">
+                <img
+                  src="/Images/youtube-icon.png"
+                  alt="youtube-icon"
+                  class="youtube"
+                />
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <hr class="footer-line" />
+      <span class="copy-rights"
+        >© 2025 AI-POWERED Resume Job Matcher. All rights reserved.</span
+      >
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
