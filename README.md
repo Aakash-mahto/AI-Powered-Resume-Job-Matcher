@@ -33,7 +33,7 @@ This project represents a real-world scenario where frontend developers work clo
 2. Open `index.html` in a browser  
 
 ## Demo Video
-Demo video link:
+Demo video link: https://drive.google.com/file/d/1IQxANC8LBJ_vWUiL0uNOtLkcLy6C966p/view?usp=drive_link
 
 ## What I Learned
 - How to integrate AI APIs in frontend
