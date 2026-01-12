@@ -30,11 +30,10 @@ This project represents a real-world scenario where frontend developers work clo
 
 ## How to Run the Project
 1. Download or clone the repository
-2. Open `index.html` in a browser  
+2. Open `index.html in a browser  
 
 ## Demo Video
-Demo video link: https://drive.google.com/file/d/1IQxANC8LBJ_vWUiL0uNOtLkcLy6C966p/view?usp=drive_link
-
+Demo video link: https://drive.google.com/drive/folders/1k1mWaeTFNN1qWDrxEv49IZE8gPtQLSHg?usp=drive_link
 ## What I Learned
 - How to integrate AI APIs in frontend
 - How to structure a real-world frontend project
